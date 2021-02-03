@@ -1,3 +1,3 @@
 # importar-biblioteca-pagseguro
 
-Exemplo simples e ilustrativo.
+[Clique aqui para acessar o exemplo simples e ilustrativo.](exemplo-ilustrativo.php)
