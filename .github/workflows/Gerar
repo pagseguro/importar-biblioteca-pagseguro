@@ -1,0 +1,19 @@
+// Gerar sessão
+pagseguro.setSessionId(codigoDeSessao);
+
+// Obter meios de pagamento disponíveis
+pagseguro.getPaymentMethods();
+
+// Gerar SenderHash
+pagseguro.onSenderHashReady(function(senderHash){
+        // Faça algo com o senderHash gerado
+});
+
+// Obter bandeiras
+pagseguro.obterMarca(numeroCartao);
+
+// Obter valor de parcelas
+pagseguro.getInstallment(valor, bandeiraCartao);
+
+// Gerar token
+pagseguro.criarCardToken(dadosCartao);
